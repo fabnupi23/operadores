@@ -28,4 +28,15 @@ void main(List<String> arguments) {
   if (email != null && email.length > 0) {}
 
   //Operadores de asignación
+  var age = 18;
+  age += 29;
+  age -= 9;
+
+  var name = 'Fabian';
+  name += 'Nuñez';
+
+  var price = 100;
+  price ~/= 13;
+
+  print(price);
 }
