@@ -39,4 +39,16 @@ void main(List<String> arguments) {
   price ~/= 13;
 
   print(price);
+
+  //Operadores ternario
+  var initial = '';
+  final familyName = 'Fabian Nuñez';
+  //final initial = familyName.isNotEmpty ? familyName[0] : 'N/A';
+
+  if (familyName.length > 0) {
+    initial = familyName[0];
+  } else {
+    initial = 'N/A';
+  }
+  print(initial);
 }
